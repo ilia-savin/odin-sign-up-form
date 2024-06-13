@@ -1,0 +1,31 @@
+.content {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.picture {
+    background-image: url(binary.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    gap: 2vw;
+}
+
+.js {
+    height: 10vh;
+}
+
+.info {
+    background-color: black;
+    width: 70vw;
+}
