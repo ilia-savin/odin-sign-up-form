@@ -8,8 +8,55 @@
 </head>
 <body>
     <div class="content">
-        <div class="picture"></div>
-        <div class="info"></div>
+        <div class="picture">
+            <div class="logo">
+                <img src="./images/odin-lined.png" alt="odin-logo" class="viking">
+                <h1 class="viking-text">ODIN</h1>
+            </div>
+        </div>
+        <div class="info">
+            <div class="text">
+                <p>This is not a real online service! You know you need something like this
+                    in your life to help to realize your deepest dreams.<br>
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form action="#">
+                <div class="row">
+                    <div class="col">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" placeholder="First Name" required>
+                    </div>
+                    <div class="col">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" placeholder="Last Name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="col">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="col">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+                    </div>
+                </div>
+            </form>
+            <button class="create-btn">Create Account</button>
+            <button class="log-in-btn">Log in</button>
+        </div>
     </div>
 </body>
 </html>
